@@ -15,7 +15,7 @@ class Person(Base):
     name = Column(String(250), nullable=False)
 
 class Address(Base):
-    __tablename__ = 'address'
+    __tablename__ = 'addressdd'
     # Here we define columns for the table address.
     # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
